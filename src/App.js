@@ -3,7 +3,8 @@ import "./index.css"
 import Usestate from "./Usestate";
 import  UsetstateObjEx from './UseStateadvanceex';
 import  ArrayModexlEx from './Addthedeletebtnusingarray';
-import Conditionalrenderingex from './Conditionalrenderingex'
+import Conditionalrenderingex from './Conditionalrenderingex';
+import TodoListEx from './Todolistexample';
 
 function App() {
   // const [count,setCount] = useState(0);
@@ -23,9 +24,10 @@ function App() {
       <Usestate/>
       <h1>Object Model Example</h1>
       < UsetstateObjEx/> */}
-      <h1>Array Model Example</h1>
+      {/* <h1>Array Model Example</h1>
       < ArrayModexlEx/>
-      <Conditionalrenderingex/>
+      <Conditionalrenderingex/> */}
+      <TodoListEx/>
     </div>
   );
 }
